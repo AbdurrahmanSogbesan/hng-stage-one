@@ -16,8 +16,8 @@ To run this API endpoint locally, you will need Node.js and npm (Node Package Ma
 1. Clone this repository to your local machine:
 
 ```bash
-   git clone https://github.com/AbdurrahmanSogbesan/hng-stage-one.git
-   ```
+git clone https://github.com/AbdurrahmanSogbesan/hng-stage-one.git
+```
 
 2. Navigate to the project directory:
 ```bash
