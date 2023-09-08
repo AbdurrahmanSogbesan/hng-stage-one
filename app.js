@@ -8,10 +8,6 @@ app.get("/api", (req, res) => {
         return res.status(400).json({ error: "slack_name and track are required parameters" });
     }
 
-    // Validate query parameters
-    if (typeof slack_name !== "string" || typeof track !== "string") {
-        return res.status(400).json({ error: "slack_name and track must be strings" });
-    }
 
     // Get the current date and time in UTC
     const now = new Date();
